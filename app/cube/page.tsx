@@ -31,7 +31,6 @@ import gsap from "gsap";
 
 function WireCube() {
   const cubeRef = useRef();
-
   useFrame(() => {
     cubeRef.current.rotation.x +=0.01;
     cubeRef.current.rotation.y +=0.01;
