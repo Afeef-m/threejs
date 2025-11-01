@@ -6,7 +6,6 @@ export default function Home() {
   <h3 className="font-semibold text-4xl text-lime-700 mb-6">
     3D World
   </h3>
-
   <div className="flex gap-4 flex-wrap">
     <Link
       href="/cube"

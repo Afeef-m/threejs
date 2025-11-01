@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint"
   },
+  
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.7.6",
