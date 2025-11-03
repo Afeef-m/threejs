@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Glob() {
+function ThreeD() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Glob() {
   )
 }
 
-export default Glob
+export default ThreeD
