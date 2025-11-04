@@ -9,17 +9,25 @@ export default function Home() {
   <div className="flex gap-4 flex-wrap">
     <Link
       href="/cube"
-      className="px-6 py-2 bg-lime-400 text-white font-medium rounded-lg hover:bg-lime-500 transition-colors duration-200"
+      className="px-6 py-2 bg-lime-300 text-lime-900 font-medium rounded-lg hover:bg-lime-500 transition-colors duration-200"
     >
       Cube
     </Link>
 
     <Link
-      href="/glob"
+      href="/shadow"
       className="px-6 py-2 bg-lime-300 text-lime-900 font-medium rounded-lg hover:bg-lime-400 transition-colors duration-200"
     >
-      Glob
+      Shadow
     </Link>
+
+    <Link
+      href="/sky"
+      className="px-6 py-2 bg-lime-300 text-lime-900 font-medium rounded-lg hover:bg-lime-400 transition-colors duration-200"
+    >
+      Sky
+    </Link>
+    
   </div>
 </div>
 
