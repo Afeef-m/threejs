@@ -8,7 +8,7 @@ import gsap from "gsap";
 gsap.registerPlugin(ScrollTrigger);
 
 function LineCube() {
-  const cubeRef = useRef();
+  const cubeRef = useRef<THREE.Mesh>(null!);
   const scrollRef = useRef(0); 
 
   useFrame(() => {

@@ -22,6 +22,12 @@ export default function Home() {
     </Link>
 
     <Link
+      href="/planat"
+      className="px-6 py-2 bg-lime-300 text-lime-900 font-medium rounded-lg hover:bg-lime-400 transition-colors duration-200"
+    >
+      Planat
+    </Link>
+    <Link
       href="/sky"
       className="px-6 py-2 bg-lime-300 text-lime-900 font-medium rounded-lg hover:bg-lime-400 transition-colors duration-200"
     >
